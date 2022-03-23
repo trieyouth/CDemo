@@ -14,7 +14,7 @@ namespace yujiu {
     public:
         string longestPalindrome(string s);
 
-        bool isPalindrome(string basicString, int i, int j, byte flags[]);
+        bool isPalindrome(string basicString, int i, int j);
     };
 }
 
